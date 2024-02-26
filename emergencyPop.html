@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>即時告警</title>
+    <link rel="stylesheet" href="assets/css/all.css" />
+  </head>
+  <body>
+    <main class="alert-box-white">
+      <div class="title-area mb-4">
+        <img src="./assets/img/icon_alert.svg" alt="" class="me-1 img-fluid" />
+        <p class="fs-2 fw-semibold mb-0">即時告警</p>
+      </div>
+      <div class="info-area">
+        <div class=" mb-4">
+          <h3 class="fw-normal mb-1">告警事件：</h3>
+          <p class="fs-2 fw-semibold mb-0 alert-event">即時用電超過設定之告警數值 120！</p>
+        </div>
+        <div class="row row-cols-2">
+          <div>
+            <h3 class="fw-normal mb-1">地點：</h3>
+            <p class="fs-2 fw-semibold mb-0 alert-area">新竹廠 - 射出部</p>
+          </div>
+          <div class="border-start border-1 ps-4">
+            <h3 class="fw-normal mb-1">時間：</h3>
+            <p class="fs-2 fw-semibold mb-0 alert-time">2024-02-20 13:25:46</p>
+          </div>
+        </div>
+      </div>
+      <div class="img-area">
+        <p class="">圖表：</p>
+        
+        <div>
+            <!-- 串接圖表區塊 -->
+        </div>
+      </div>
+      <div class="text-center ">
+        <button
+        type="button"
+        class="btn btn-primary fw-bold px-5 py-2"
+      >
+      前往 Widget
+      </button>
+      </div>     
+    </main>
+    <script src="./assets/js/popRender.js"></script>
+  </body>
+</html>

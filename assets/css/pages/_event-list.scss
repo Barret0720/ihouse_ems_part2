@@ -1,0 +1,48 @@
+.event-list-container{
+    max-width: 840px;
+    margin: 0 auto;
+    margin-top: 40px;
+    .select-area {
+        display: flex;
+        gap: 16px;
+        margin-bottom: 24px;
+    }
+    .datepicker-container {
+        position: relative;
+        display: inline-block;
+      }
+      .datepicker-icon {
+        position: absolute;
+        top: 50%;
+        right: 0.5rem;
+        transform: translateY(-50%);
+        cursor: pointer;
+      }
+      .selected-date {
+        position: absolute;
+        top: 50%;
+        left: 0.5rem;
+        transform: translateY(-50%);
+      }
+      .alert-list{
+      }
+      .alert-item{
+        border-radius: 16px;
+        margin-bottom: 8px;
+        padding: 16px 24px;
+        display: flex;
+        justify-content: space-between;
+        background: #fff;
+        h3{
+          margin-bottom: 28px;
+        }
+        .time{
+          color: #999999;
+        }
+      }
+      .alert-link{
+        display: flex;
+        align-items: center;
+        text-decoration: none;
+      }
+}

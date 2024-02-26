@@ -1,0 +1,19 @@
+.bg-white-box {
+    background-color: $white;
+    padding: 24px;
+    padding-left: 32px;
+    border-radius: 24px;
+  }
+  .bg-light-box{
+    background-color: #EAEAEA;
+    padding: 16px;
+    border-radius: 8px;  
+  }
+  .modal-content{
+    max-height: 90vh;
+    // overflow-y: scroll;
+  }
+  .modal-body{
+    max-height: 70vh;
+    overflow-y: scroll;
+  }

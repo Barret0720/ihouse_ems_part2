@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>事件列表</title>
+    <link rel="stylesheet" href="assets/css/all.css" />
+    <link
+      rel="stylesheet"
+      href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css"
+    />
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.min.js"></script>
+  </head>
+  <body>
+    <div class="title-word ms-44px">
+      <span class="colr-block"></span>
+      <h2 class="mb-0 fw-semibold">事件列表</h2>
+    </div>
+    <main class="event-list-container">
+      <div class="select-area">
+        <select class="form-select w-auto" id="type">
+          <option value="all">全部類型</option>
+          <option value=""></option>
+        </select>
+        <div class="datepicker-container">
+          <span class="selected-date"></span>
+          <input type="text" id="datepicker" class="form-control" />
+          <span class="datepicker-icon">
+            <img src="./assets/img/icon_calendar.svg" alt="calendar icon" />
+          </span>
+        </div>
+      </div>
+      <div>
+        <div class="d-flex justify-content-between">
+          <p class="fw-semibold">列表</p>
+          <p class="fs-5">筆數：<span class="fw-semibold data-length">22</span> 筆</p>
+        </div>
+        <ul class="list-unstyled alert-list">
+          <li class="alert-item">
+            <div class="d-flex">
+              <img src="./assets/img/icon_alert_circle.svg" alt="" class="me-4 img-fluid" />
+              <div>
+                <p class="fw-semibold text-primary mb-2">告警通知</p>
+                <h3 class="fw-semibold">即時用電超過設定之告警數值 80！</h3>
+                <p class="time">2023-10-16 15:30:09</p>
+              </div>
+            </div>
+            <a href="" class="alert-link link-primary">查看 Widget<span class="material-icons"> navigate_next </span></a>
+          </li>
+        </ul>
+
+      </div>
+    </main>
+    <script>
+
+    </script>
+    <script src="./assets/js/eventList.js"></script>
+  </body>
+</html>

@@ -1,0 +1,49 @@
+.title-box {
+  display: flex;
+  align-items: center;
+  margin-bottom: 28px;
+}
+.back-icon {
+  width: 40px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  background-color: $white;
+  .material-icons{
+    font-size: 40px;
+  }
+  img {
+    // width: 25px;
+    height: 19.29px;
+  }
+}
+.title-word {
+  display: flex;
+  align-items: center;
+  .colr-block {
+    width: 8px;
+    height: 26px;
+    background-color: $primary;
+    margin-right: 8px;
+  }
+}
+.ms-44px{
+  margin-left: 44px;
+}
+.function-box{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 112px;
+  margin-bottom: 0;
+  .btn-white{
+    box-shadow: 0 4px 4px rgb(0 0 0 / 25%);
+    margin-left: 12px;
+    padding: 8px 20px;
+  }
+  .router-link-active{
+    font-weight: 600;
+  }
+}

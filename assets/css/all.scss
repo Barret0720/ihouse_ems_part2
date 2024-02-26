@@ -1,0 +1,22 @@
+@import url("https://fonts.googleapis.com/icon?family=Material+Icons");
+@import "./common/reset";
+@import "bootstrap/scss/functions";
+@import "./custom/variables";
+@import "bootstrap/scss/variables-dark";
+@import "bootstrap/scss/maps";
+@import "bootstrap/scss/mixins";
+@import "./custom/utilities";
+@import 'bootstrap/scss/bootstrap';
+@import "./custom/buttons";
+
+@import './common/common';
+@import './pages/index';
+@import './pages/acount-manger';
+@import './pages/page-manger';
+@import './pages/deviee-manger';
+@import './pages/alert-box';
+@import './pages/event-list';
+body{
+    background-color: #F6F6F6;
+    padding: 24px;
+}

@@ -1,0 +1,65 @@
+.table-img-icon{
+    width: 16px;
+    height: 16px;
+    object-fit: contain;
+    object-position: center;
+    overflow: hidden;
+}
+@mixin zIndexLoop($start, $end) {
+    @for $i from $start through $end {
+      &:nth-child(#{$i}) {
+        z-index: 20- $i;
+      }
+    }
+  }
+  .table-img-box {
+    .table-head-box{
+      position: relative;
+      margin-left: -10px;
+      &:nth-child(1){
+        margin-left: unset;
+      }
+      &:hover{
+        .table-head-name{
+          visibility: visible;
+        }
+      }
+    }
+    .table-img-head {      
+      @include zIndexLoop(1, 11);
+    }
+    .table-head-name{
+      visibility: hidden;
+      position: absolute;
+      width: 43px;
+      height: 43px;
+      border-radius: 50%;
+      background-color: rgba(33, 78, 125, 0.8) !important;
+      transform: translate(-50%,-50%);
+      top: 50% !important;
+      left: 50% !important;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      z-index: 1;
+      p{
+        color: $white;
+        margin-bottom: 0;
+        font-weight: 500;
+        font-size: 14px;
+      }
+    }
+
+  }
+
+  .separator{
+    border-top: 1px dashed #EAEAEA;
+    margin: 10px 0; 
+  }
+
+  .form-select:invalid {
+    color: #999999;
+    option{
+     color: $body-color; 
+    }
+  }

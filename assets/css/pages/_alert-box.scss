@@ -1,0 +1,26 @@
+.alert-box-white{
+    margin: 0 auto;
+    background: #fff;
+    padding: 24px 40px;
+    max-width: 920px;
+    .title-area{
+        display: flex;
+        align-items: center;
+    }
+    .info-area{
+        background-color: #FFF6ED;
+        border-radius: 12px;
+        margin-bottom: 24px;
+        padding: 32px 24px;
+    }
+    .info-area{
+        background-color: #FFF6ED;
+        border-radius: 12px;
+        margin-bottom: 24px;
+        padding: 32px 24px;
+    }
+    .img-area{
+        margin-bottom: 24px;
+        padding: 32px 24px;
+    }
+}
